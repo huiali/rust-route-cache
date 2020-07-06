@@ -1,17 +1,17 @@
 [package]
 name = "router-cache"
 version = "0.1.0"
-authors = ["Denis Kolodin <deniskolodin@gmail.com>"]
+authors = ["1"]
 edition = "2018"
 
 [dependencies]
-actix = "0.7"
-actix-web = "0.7"
-env_logger = "0.5"
+actix = "0.9"
+actix-web = "2.0.0"
+env_logger = "0.7.1"
 failure = "0.1"
-futures = "0.1"
+futures = "0.3.5"
 log = "0.4"
-redis = "0.9"
+redis = "0.16"
 serde = "1.0"
 serde_derive = "1.0"
-serde_urlencoded = "0.5"
+serde_urlencoded = "0.6"
